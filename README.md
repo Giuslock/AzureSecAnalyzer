@@ -1,6 +1,6 @@
-# Azure Sec Bench
+# AzureSecAnalyzer
 
-Azure Sec Bench is a PowerShell project that checks the security settings of Azure resources.
+AzureSecAnalyzer is a PowerShell project that checks the security settings of Azure resources.
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -25,7 +25,7 @@ Azure Sec Bench is a PowerShell project that checks the security settings of Azu
 
 ## Prerequisites
 
-To use Azure Sec Bench, you need to have the `Export-Excel` PowerShell module installed. Additionally, you will also need the `Az` module installed. 
+To use AzureSecAnalyzer, you need to have the `Export-Excel` PowerShell module installed. Additionally, you will also need the `Az` module installed. 
 
 You can install both modules by running the following commands:
 
@@ -37,7 +37,7 @@ Install-Module -Name Az
 
 ## Usage
 
-To use Azure Sec Bench, follow the steps below:
+To use AzureSecAnalyzer, follow the steps below:
 
 1. Launch the PowerShell script by running `launch.ps1`.
 2. Select the mode:
@@ -57,7 +57,7 @@ For the Resource Group mode, it supports 1000 resources per RG
 .\launch.ps1
 ```
 
-These commands run Azure Sec Bench.
+These commands run AzureSecAnalyzer.
 
 ## Supported Resources
 
@@ -151,9 +151,9 @@ If you would like to see support for additional Azure resources or output format
 
 ## Output Format
 
-Azure Sec Bench outputs its results in the `.xlsx` format, which allows for clear and comprehensive assessments. This format is recommended for analyzing the security settings as it provides easy sorting, filtering, and visualization of results.
+AzureSecAnalyzer outputs its results in the `.xlsx` format, which allows for clear and comprehensive assessments. This format is recommended for analyzing the security settings as it provides easy sorting, filtering, and visualization of results.
 
-To generate the output in the desired format, simply run the `launch.ps1` script when launching Azure Sec Bench.
+To generate the output in the desired format, simply run the `launch.ps1` script when launching AzureSecAnalyzer.
 
 The generated `.xlsx` file provides a structured overview of the security settings for various Azure resources, allowing you to identify potential vulnerabilities and take appropriate measures to mitigate risks. It supports all the resources listed in the [Supported Resources](#supported-resources) section, ensuring a thorough analysis of your Azure environment.
 
@@ -161,10 +161,10 @@ Take advantage of the intuitive Excel features to explore and interpret the asse
 
 ## Contributing
 
-We welcome contributions from the community! If you would like to contribute to Azure Sec Bench, please create a pull request with your proposed changes.
+We welcome contributions from the community! If you would like to contribute to AzureSecAnalyzer, please create a pull request with your proposed changes.
 
 If you encounter any issues or have any suggestions for improvement, please create an issue on this repository.
 
 ## License
 
-Azure Sec Bench is licensed under the [GNU General Public License v3.0](LICENSE). You are free to use, modify, and distribute this software in compliance with the terms and conditions of the license.
+AzureSecAnalyzer is licensed under the [GNU General Public License v3.0](LICENSE). You are free to use, modify, and distribute this software in compliance with the terms and conditions of the license.
