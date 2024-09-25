@@ -69,7 +69,7 @@ These commands run AzureSecAnalyzer.
 ### Api Management
 
 ### Applied Ai Services
-#### Bot services
+### Bot services
 
 ### Automation Accounts
 
